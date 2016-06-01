@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200.0" prefWidth="320.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="expertojava.PreguntatresFXMLController">
+    <children>
+        <Button fx:id="btnsi1" layoutX="33.0" layoutY="75.0" onAction="#handleBtnSi" text="Si" />
+        <Label fx:id="lbl1" layoutX="33.0" layoutY="28.0" minHeight="16" minWidth="69" text="¿El personaje usa moño?" />
+      <Button fx:id="btnno1" layoutX="70.0" layoutY="75.0" mnemonicParsing="false" onAction="#handleBtnNo" text="No" />
+      <Label fx:id="lblres1" layoutX="45.0" layoutY="121.0" />
+    </children>
+</AnchorPane>

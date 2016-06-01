@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="expertojava.FXMLDocumentController">
+    <children>
+        <Button fx:id="btnsi" layoutX="33.0" layoutY="75.0" onAction="#handleBtnSi" text="Si" />
+        <Label fx:id="lbl" layoutX="33.0" layoutY="28.0" minHeight="16" minWidth="69" text="¿El personaje usa ropa?" />
+      <Button fx:id="btnno" layoutX="70.0" layoutY="75.0" mnemonicParsing="false" onAction="#handleBtnNo" text="No" />
+      <Label fx:id="lblres" layoutX="45.0" layoutY="121.0" />
+      <Button fx:id="btncomenzar" layoutX="131.0" layoutY="126.0" mnemonicParsing="false" onAction="#handleBtnIni" text="Comenzar" />
+    </children>
+</AnchorPane>
